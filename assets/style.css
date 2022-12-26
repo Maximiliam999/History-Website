@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap');
+
+
+
+#cubaimage {
+    background-image: url("../assets/images/spencer-everett-4MTSE39Oqro-unsplash.jpg");
+    height: 600px;
+    width: 100%;
+}
+
+body {
+    font-family: montserrat, Oswald;
+}
