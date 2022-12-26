@@ -4,10 +4,11 @@
 
 #cubaimage {
     background-image: url("../assets/images/spencer-everett-4MTSE39Oqro-unsplash.jpg");
-    height: 600px;
+    height: 100%;
     width: 100%;
 }
 
 body {
     font-family: montserrat, Oswald;
 }
+
