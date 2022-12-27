@@ -4,11 +4,24 @@
 
 #cubaimage {
     background-image: url("../assets/images/spencer-everett-4MTSE39Oqro-unsplash.jpg");
-    height: 100%;
+    height: 400px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 body {
-    font-family: montserrat, Oswald;
+    font-family: Oswald, sans-serif;
 }
 
+#timeline li {
+   margin-top: 10px;
+}
+
+#home {
+    text-transform: uppercase;
+    font-size: 220%;
+    color: black;
+    letter-spacing: 3px;
+}
