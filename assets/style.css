@@ -4,11 +4,12 @@
 
 #cubaimage {
     background-image: url("../assets/images/spencer-everett-4MTSE39Oqro-unsplash.jpg");
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 
 body {
@@ -22,6 +23,54 @@ body {
 #home {
     text-transform: uppercase;
     font-size: 220%;
-    color: black;
+    text-decoration: none;
+    color: #3a3a3a;
     letter-spacing: 3px;
+}
+
+#menu {
+    letter-spacing: 2px;
+    font-size: 110%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+#menu, #logo {
+    line-height: 20px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 75px;
+    
+}
+
+#about-us{
+   
+    color: red;
+   
+    
+}
+#about-us h2 {
+    text-align: center;
+}
+
+
+
+
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
