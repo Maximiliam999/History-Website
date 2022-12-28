@@ -16,8 +16,8 @@ header {
 
 body {
     font-family: Oswald, sans-serif;
-    color: whitesmoke;
-    background-color: black;
+    color: black;
+    background-color: rgb(230, 209, 209);
 }
 
 #logo {
@@ -65,19 +65,20 @@ body {
     
 }
 
-#about-us{
-   
-    color: red;
+#about-us {
     font-size: 110%;
-   
-    
+    text-align: center;
+    width: 50%;
+    padding-left: 450px;
 }
 #about-us h2 {
     text-align: center;
 }
 
 
-
+.timeline {
+    font-size: 150%;
+}
 
 
 #photos {
@@ -98,19 +99,18 @@ body {
 
 #social-medias {
     text-align: center;
-    text-transform: uppercase;
     font-size: 200%;
-    padding: 5%;
-    margin: 1%;
+    padding: 10%;
+    margin: 2%;
 }
 
 #social-media-links {
     text-align: center;
     margin-bottom: -75px;
+    text-transform: uppercase;
     
 }
 
-footer {
-    background-color: whitesmoke;
-    background: url(/assets/images/pexels-gerhard-lipold-11011175.jpg);
+#win-trip {
+    text-align: center;
 }
