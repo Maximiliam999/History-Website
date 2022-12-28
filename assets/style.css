@@ -4,21 +4,25 @@
 
 header {
     background-image: url("/assets/images/juan-luis-ozaez-zyq5CLB_jqw-unsplash.jpg");
-    height: 300px;
+    height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    margin: 0;
+    border: 0;
 }
 
 body {
     font-family: Oswald, sans-serif;
+    color: whitesmoke;
+    background-color: black;
 }
 
 #logo {
     text-align: center;
-    color: black;
+    
     line-height: 15px;
     
 }
@@ -38,7 +42,7 @@ body {
 #menu {
     float: right;
     letter-spacing: 2px;
-    font-size: 110%;
+    font-size: 120%;
     margin-top: -75px;
 
 
@@ -63,7 +67,7 @@ body {
 
 #about-us{
    
-    color:black;
+    color: red;
     font-size: 110%;
    
     
@@ -102,5 +106,11 @@ body {
 
 #social-media-links {
     text-align: center;
+    margin-bottom: -75px;
     
+}
+
+footer {
+    background-color: whitesmoke;
+    background: url(/assets/images/pexels-gerhard-lipold-11011175.jpg);
 }
