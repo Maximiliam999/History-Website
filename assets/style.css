@@ -19,6 +19,8 @@ body {
 #logo {
     text-align: center;
     color: black;
+    line-height: 15px;
+    
 }
 
 #timeline li {
@@ -34,8 +36,10 @@ body {
 }
 
 #menu {
+    float: right;
     letter-spacing: 2px;
     font-size: 110%;
+    margin-top: -75px;
 }
 
 #menu a {
@@ -45,7 +49,7 @@ body {
 }
 
 #menu, #logo {
-    line-height: 25px;
+   
 }
 
 #menu li {
@@ -79,4 +83,17 @@ body {
 
 #photos > img {
     width: 100%;
+}
+
+#under-logo {
+    
+    font-size: 150%;
+}
+
+#social-medias {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+    padding: 5%;
+    margin: 1%;
 }
