@@ -53,22 +53,33 @@
                     <option value="40s">40-49</option>
                     <option value="50s">50-59</option>
                 </select>
+        </fieldset>
         <fieldset>
             <legend>City</legend>
             <div>
                 <label for="which-city">Which city in Cuba do you want to go to?</label> 
                 <input id="which-city" list="citys" name="which-city" required>
                 <datalist id="citys">
-                    <option value="Baracoa">baracoa</option>
+                    <option value="Baracoa"></option>
                     <option value="Havana"></option>
                     <option value="Varadero"></option>
                 </datalist>
             </div>
-        </fieldset>        
-            <div>
+            <p>Have you been to Cuba before?</p>
+            <label for="0times-radio">0 times</label>
+            <input id="0times-radio" name="times-travelled" value="0times" type="radio" required>
 
-            </div>
-        </fieldset>
+            <label for="1-2times-radio">1-2 times</label>
+            <input id="1-2times-radio" name="times-travelled" value="1-2times" type="radio" required>
+
+            <label for="2-4times-radio">2-4 times</label>
+            <input id="2-4times-radio" name="times-travelled" value="2-4times" type="radio" required>
+            
+            <label for="4+times-radio">4+ times</label>
+            <input id="4+times-radio" name="times-travelled" value="4+times" type="radio" required>
+        </fieldset>        
+        
+        
     </form>
 </body>
 </html>
