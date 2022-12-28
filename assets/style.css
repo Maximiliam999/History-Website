@@ -40,7 +40,12 @@ body {
     letter-spacing: 2px;
     font-size: 110%;
     margin-top: -75px;
+
+
+
 }
+
+
 
 #menu a {
     text-decoration: none;
@@ -48,9 +53,6 @@ body {
     text-transform: uppercase;
 }
 
-#menu, #logo {
-   
-}
 
 #menu li {
     float: right;
@@ -86,7 +88,7 @@ body {
 }
 
 #under-logo {
-    
+    text-align: center;
     font-size: 150%;
 }
 
@@ -96,4 +98,9 @@ body {
     font-size: 200%;
     padding: 5%;
     margin: 1%;
+}
+
+#social-media-links {
+    text-align: center;
+    
 }
