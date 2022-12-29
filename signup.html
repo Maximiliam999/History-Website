@@ -25,7 +25,7 @@
         <a href="gallery.html" aria-label="go to a gallery with pictures of cuban history">Gallery</a>
         </li>
         <li>
-        <a href="signup.html" aria-label="sign up for chance to win free trip to Havanna, Cuba">Win free trip</a>
+        <a href="signup.html" aria-label="sign up for chance to win free trip to Havanna, Cuba">Sign up</a>
         </li>
     </ul>
     </nav>
@@ -38,58 +38,62 @@
     
     <form> 
         <fieldset>
-            <legend>Your details</legend>
+            <legend class="float-middle">Your details</legend>
 
-            <div>
+            <div class="float-middle">
                 <label for="name-field">Name</label>
                 <input id="name-field" type="text" name="first_name" placeholder="First name" required>
             </div>
-            <div>
+            <div class="float-middle">
                 <label for="last-name">Last-Name</label>
                 <input id="last-name" type="text" name="last_name" placeholder="Last name" required>
             </div>
-            <div>
+            <div class="float-middle">
                 <label for="email-field">Email</label>
                 <input type="email" name="email" placeholder="Your email" required>
-            </div>    
+            </div> 
+            <div class="float-middle">   
                 <label for="age">Age</label>
-                <select id="age" name="age" required>
+                <select id="age" name="age"  required>
                     <option value="Under 20">Under 20</option>
                     <option value="20s">20-29</option>
                     <option value="30s">30-39</option>
                     <option value="40s">40-49</option>
                     <option value="50s">50-59</option>
                 </select>
+            </div>
         </fieldset>
-        <fieldset>
-            <legend>City</legend>
-            <div>
-                <label for="which-city">Which city in Cuba do you want to go to?</label> 
+        <fieldset> 
+            <div class="float-middle">
+            <legend>Dates</legend>
+           
+                <label for="which-city">Which day would you like to take the class?</label> 
                 <input id="which-city" list="citys" name="which-city" required>
                 <datalist id="citys">
-                    <option value="Baracoa"></option>
-                    <option value="Havana"></option>
-                    <option value="Varadero"></option>
+                    <option value="Monday"></option>
+                    <option value="Wednesday"></option>
+                    <option value="Friday"></option>
                 </datalist>
             </div>
-        <div> 
-            <p>Have you been to Cuba before?</p>
-            <label for="0times-radio">0 times</label>
+        <div class="float-middle"> 
+            <p>how would you rate your experience on this website out of 4 stars?</p>
+            <label for="0times-radio">1 <i class="fa-solid fa-star"></i></label>
                 <input id="0times-radio" name="times-travelled" value="0times" type="radio" required>
 
-            <label for="1-2times-radio">1-2 times</label>
+            <label for="1-2times-radio">2 <i class="fa-solid fa-star"></i></label>
                 <input id="1-2times-radio" name="times-travelled" value="1-2times" type="radio" required>
 
-            <label for="2-4times-radio">2-4 times</label>
+            <label for="2-4times-radio">3 <i class="fa-solid fa-star"></i></label>
                 <input id="2-4times-radio" name="times-travelled" value="2-4times" type="radio" required>
             
-            <label for="4+times-radio">4+ times</label>
+            <label for="4+times-radio">4 <i class="fa-solid fa-star"></i></label>
                 <input id="4+times-radio" name="times-travelled" value="4+times" type="radio" required>
         </div> 
     </fieldset>      
-        
-        <input type="submit" value="enter prize draw">
+        <div class="float-middle">
+        <input type="submit" value="enter">
         <input type="reset" value="reset form">
+    </div>
     </form>
 
     <script src="https://kit.fontawesome.com/e57cbfe555.js" crossorigin="anonymous"></script>    
