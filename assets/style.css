@@ -82,10 +82,17 @@ body {
     font-size: 150%;
     background-color: white;
     
-    
 }
 
+.timeline, h2 {
+    text-align: center
+}
 
+.timeline, p {
+    padding-left: 35px;
+    padding-right: 30px;
+    font-size: 105%;
+}
 
 #photos {
     clear: both;
@@ -134,3 +141,13 @@ legend {
     text-transform: uppercase;
 }
 
+hr {
+    border-top: 3px solid black;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
