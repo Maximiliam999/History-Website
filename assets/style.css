@@ -10,8 +10,7 @@ header {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    margin: 0;
-    border: 0;
+    padding-top: 0;
 }
 
 body {
@@ -23,21 +22,14 @@ body {
 #logo {
     text-align: center;
     
-    line-height: 15px;
-    
 }
 
 #timeline li {
    margin-top: 10px;
 }
 
-#home {
-    text-transform: uppercase;
-    font-size: 220%;
-    text-decoration: none;
-    color: #3a3a3a;
-    letter-spacing: 3px;
-}
+
+
 
 #menu {
     float: right;
@@ -67,10 +59,11 @@ body {
 #about-us {
     font-size: 110%;
     text-align: center;
-    
-    border-style: dashed;
+    background-color: black;
+    border-style: solid;
     padding-left: 50px;
     padding-right: 50px;
+    color: white;
 
 }
 #about-us h2 {
@@ -97,7 +90,7 @@ body {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0;
 }
 
@@ -147,7 +140,12 @@ hr {
 
 img {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
