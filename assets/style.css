@@ -44,6 +44,7 @@ body {
     letter-spacing: 2px;
     font-size: 120%;
     margin-top: -75px;
+    border-style: solid;
 
 }
 
@@ -66,8 +67,11 @@ body {
 #about-us {
     font-size: 110%;
     text-align: center;
-    width: 50%;
-    padding-left: 450px;
+    
+    border-style: dashed;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 #about-us h2 {
     text-align: center;
@@ -78,8 +82,8 @@ body {
     font-size: 150%;
     background-color: white;
     
+    
 }
-
 
 
 
@@ -97,18 +101,17 @@ body {
 #under-logo {
     text-align: center;
     font-size: 150%;
+    width: 50%;
 }
 
 #social-medias {
     text-align: center;
     font-size: 200%;
-    padding: 10%;
-    margin: 2%;
+   
 }
 
 #social-media-links {
     text-align: center;
-    margin-bottom: -75px;
     text-transform: uppercase;
     
 }
