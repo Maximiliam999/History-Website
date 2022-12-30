@@ -14,6 +14,8 @@ body {
     border: none;
 }
 
+/* H1 and logo */
+
 h1 {
     font-size: 220%;
     text-decoration: none;
@@ -21,7 +23,7 @@ h1 {
 }
 
 #logo {
-    background-image: url("/assets/images/juan-luis-ozaez-zyq5CLB_jqw-unsplash.jpg");
+    background-image: url("/assets/images/cuban\ flag.jpg");
     text-align: center;
     text-decoration: none;
     height: 550px;
@@ -38,7 +40,7 @@ h1 {
 }
 
 
-
+/* navigation bar */
 
 #menu {
     float: right;
@@ -69,6 +71,8 @@ h1 {
     
 }
 
+/* about-us section */
+
 #about-us {
     font-size: 110%;
     text-align: center;
@@ -83,6 +87,7 @@ h1 {
     text-align: center;
 }
 
+/* timeline of historic events */
 
 .timeline {
     font-size: 150%;
@@ -100,6 +105,8 @@ h1 {
     font-size: 105%;
 }
 
+/* Gallery */
+
 #photos {
     clear: both;
     line-height: 0;
@@ -111,12 +118,27 @@ h1 {
     width: 100%;
 }
 
+
+
+img {
+    float: left;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+
+
 #under-logo {
     text-align: center;
     font-size: 120%;
     font-weight: bold;
     
 }
+
+/* footer social media links */
 
 #social-medias {
     text-align: center;
@@ -130,6 +152,17 @@ h1 {
     
     
 }
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* sign up section */
 
 #sign-up {
     text-align: center;
@@ -153,17 +186,7 @@ hr {
     border-top: 3px solid black;
 }
 
-img {
-    float: left;
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-}
 
-footer {
-    background-color: black;
-    color: white;
-}
 
 #button {
     margin-bottom: 2rem;
