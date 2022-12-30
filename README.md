@@ -46,3 +46,37 @@ in any history by introducing them to the biggest events.
     - For users to follow updates or contact site owner.
 ![Screenshot of footer section](/assets/images/screenshot%20footer.png "Social media links") 
          
+## Testing
+All resolution testing has been done using chrome developer tools 
+
+- Landing page 
+    - Title link works on both Microsoft edge and Chrome 
+    - The picture is visable on all screen resolutions 
+
+- Navigation bar
+    - The bar links  has been tested and works in all pages on both Microsoft Edge and Chrome. 
+    - On Ipad screens the nav bar will move down below the h1 and on phones they will stack vertically. 
+
+- Timeline 
+    - The timeline has been tested and works on both Chrome and Microsoft Edge. 
+    - After 1350px width the padding on both sides is reduced to make more text fit on each line, making it more visually pleasing. 
+
+- Why we exist 
+    - This section has been tested and works on both Chrome and Microsoft Edge.
+    - It works on every type of screen resolution. 
+
+- Gallery 
+    - The gallery has been tested and works on both Chrome and Microsoft Edge. 
+    - On ipad and iphone screens it reduces in columns it doesn't zoom in to much making it easier to see the photos.
+
+- Sign up 
+    - The sign up page has been tested adn works on both Chrome and Microsoft Edge. 
+    - It is easily used on every type of screen resolution without needing media queries.
+    - The buttons have been tested and also work on both Chrome and Microsoft Edge. 
+    - The buttons also require all text and buttons to be filled before submiting, tested and works on both Chrome and Microsoft Edge. 
+
+- Footer 
+    - The footer links have been tested and work both on Chrome and Microsft Edge.
+    - They are visable and are clickable on all screen resolutions. 
+
+    
