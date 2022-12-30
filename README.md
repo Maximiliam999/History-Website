@@ -36,12 +36,13 @@ in any history by introducing them to the biggest events.
 ![Screenshot of gallery page](/assets/images/screenshot%20gallery.png "Gallery")
 
 - Sign up section 
- - For users to sign up for classes to further advance their knowledge about cubas history.
- - Users need to enter details and choose which day they would like to take the class to enter.
+     - For users to sign up for classes to further advance their knowledge about cubas history.
+     - Users need to enter details and choose which day they would like to take the class to enter.
+
 ![Screenshot of sign up page](/assets/images/screenshot%20signup.png "Sign up")
 
 - Footer section
     - Contains links to what would be the sites social medias in another tab.
     - For users to follow updates or contact site owner.
 ![Screenshot of footer section](/assets/images/screenshot%20footer.png "Social media links") 
--         
+         

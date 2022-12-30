@@ -213,9 +213,10 @@ hr {
         columns: auto;
     }
   #menu {
-    width: 60%;
-    padding-right: 50px;
-    margin: 0 auto;
+    width: 100%;
+    padding-right: 100px;
+    padding-top: 75px;
+    
   }
   
 }
@@ -223,6 +224,8 @@ hr {
 @media  screen and (max-width: 450px ) {
     #menu {
         color: rgb(14, 21, 34);
+        width: 60%;
+        padding-left: -100px;
     }
 }
  
