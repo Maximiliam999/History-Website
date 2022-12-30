@@ -2,9 +2,6 @@
 
 
 
-header {
-   
-}
 
 body {
     font-family: Oswald, sans-serif;
@@ -23,7 +20,7 @@ h1 {
 }
 
 #logo {
-    background-image: url("/assets/images/cuban\ flag.jpg");
+    background-image: url("/assets/images/old\ photo\ cubans\ on\ their\ farm.jpg");
     text-align: center;
     text-decoration: none;
     height: 550px;
