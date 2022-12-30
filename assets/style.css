@@ -25,11 +25,11 @@ h1 {
     text-align: center;
     text-decoration: none;
     height: 550px;
-    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     overflow: hidden;
+    position: relative;
    
 }
 
@@ -45,7 +45,8 @@ h1 {
     letter-spacing: 2px;
     font-size: 120%;
     margin-top: -75px;
-    border-style: solid;
+    
+    margin-right: 40px;
     
     
 
@@ -166,3 +167,37 @@ footer {
 #button {
     margin-bottom: 2rem;
 }
+
+
+/* Media queries */
+
+@media screen and (max-width: 1350px) {
+    #menu {
+        
+        padding-right: 40px;
+        width: 20%;
+    }
+    #photos {
+        columns: 2;
+
+    }
+}
+
+@media screen and (max-width: 910px) {
+    #photos {
+        columns: auto;
+    }
+  #menu {
+    width: 60%;
+    padding-right: 50px;
+    margin: 0 auto;
+  }
+  
+}
+
+@media  screen and (max-width: 450px ) {
+    #menu {
+        color: rgb(14, 21, 34);
+    }
+}
+ 
