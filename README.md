@@ -11,7 +11,6 @@ in any history by introducing them to the biggest events.
 ![Screenshot of nav bar home, sign up and gallery](/assets/images/screenshot%20nav%20bar.png)
 
 
-
 - Landing page header contains an old image of people on a cuban farm to make users understand that the content of the site is history focused.
 ![Screenshot of header, Old picture of cubans standing in front of farm house](/assets/images/screenshot%20header.png "Header")
 
@@ -22,6 +21,10 @@ in any history by introducing them to the biggest events.
     - A timeline of important historical events, serves as an introduction for whats to come in the classes the site offers.
 ![Screeenshot of timeline section](/assets/images/screenshot%20timeline.png "Entire timeline")
 
+- Gallery section
+    - Includes historically relevent photos 
+    - Let's users better understand the history
+![Screenshot of gallery](/assets/images/screenshot%20gallery.png "Gallery")
 
 - Footer section
     - Contains links to what would be the sites social medias in another tab
