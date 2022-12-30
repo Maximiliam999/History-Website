@@ -20,8 +20,11 @@ in any history by introducing them to the biggest events.
 
 - Timeline section      
     - A timeline of important historical events, serves as an introduction for whats to come in the classes the site offers.
+![Screeenshot of timeline section](/assets/images/screenshot%20timeline.png "Entire timeline")
 
 
 - Footer section
     - Contains links to what would be the sites social medias in another tab
+    - For users to follow updates or contact site owner
+![Screenshot of footer section](/assets/images/screenshot%20footer.png "Social media links") 
 -         
