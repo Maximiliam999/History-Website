@@ -16,8 +16,12 @@ in any history by introducing them to the biggest events.
 ![Screenshot of header, Old picture of cubans standing in front of farm house](/assets/images/screenshot%20header.png "Header")
 
 - Why we exist section presents all features of the website and explains to the user what you can do on the site and who the website is for.
+![Screenshot of why we exist section](/assets/images/screenshot%20why%20we%20exist.png "Why we exist")
+
 - Timeline section      
     - A timeline of important historical events, serves as an introduction for whats to come in the classes the site offers.
+
+
 - Footer section
     - Contains links to what would be the sites social medias in another tab
 -         
