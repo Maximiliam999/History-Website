@@ -27,7 +27,7 @@ in any history by introducing them to the biggest events.
 
 - Timeline section      
     - A timeline of important historical events, serves as an introduction for whats to come in the classes the site offers.
-    - Users who are unsure or curious read thru the timeline to know if the class is something for them.
+    - Users who are unsure or curious read through the timeline to know if the class is something for them.
 ![Screeenshot of timeline section](/assets/images/screenshot%20timeline.png "Entire timeline")
 
 - Gallery section
@@ -74,14 +74,26 @@ All resolution testing has been done using chrome developer tools
 
 ![Screenshot of gallery on ipgone and ipad](/assets/images/gallery%20ipad%20iphone.png "gallery on ipad and iphone")
 
+
 - Sign up 
     - The sign up page has been tested adn works on both Chrome and Microsoft Edge. 
     - It is easily used on every type of screen resolution without needing media queries.
     - The buttons have been tested and also work on both Chrome and Microsoft Edge. 
-    - The buttons also require all text and buttons to be filled before submiting, tested and works on both Chrome and Microsoft Edge. 
+    - The buttons also require all text and buttons to be filled before submiting, tested and works on both Chrome and Microsoft Edge.
+
+![Screenshot of sign up reqiured field](/assets/images/sign%20up%20reqiured.png "sign up required field")
 
 - Footer 
     - The footer links have been tested and work both on Chrome and Microsft Edge.
     - They are visable and are clickable on all screen resolutions. 
 
+
+## Validator Testing 
+
+- HTML
+    - 2 errors occured when testing through the W3C validator, p element nested in a span element, Closing div without a opening div.
+    - 
+
+- CSS
+    - No errors found when using jigsaw
     
