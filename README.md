@@ -91,10 +91,13 @@ All resolution testing has been done using chrome developer tools
 ## Validator Testing 
 
 - HTML
-    - 2 errors occured when testing through the W3C validator, p element nested in a span element, Closing div without a opening div. 
+    - 3 errors occured when testing through the W3C validator, p element nested in a span element, Closing div without a opening div, section without h1-h6 
     - The errors were fixed and no more errors come up when testing. 
      
 
 - CSS
-    - No errors found when using jigsaw
+    - No errors found when using Jigsaw validator 
+
+
+## Deployment
     

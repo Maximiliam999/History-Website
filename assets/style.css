@@ -20,7 +20,7 @@ h1 {
 }
 
 #logo {
-    background-image: url("/assets/images/oldphotocubansontheirfarm.jpg");
+    background-image: url("../images/oldphotocubansontheirfarm.jpg");  
     text-align: center;
     text-decoration: none;
     height: 550px;
