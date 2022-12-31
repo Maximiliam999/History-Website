@@ -107,11 +107,16 @@ All resolution testing has been done using chrome developer tools
     - The page will automatically refresh and give the live link to the website
     - Live link here - https://maximiliam999.github.io/Learn-Cuba/
 
-## Credits 
+# Credits 
 
+## Content
 - The text for the timline section was taken from two diffrent sources. Wikipedia article https://en.wikipedia.org/wiki/History_of_Cuba#Pre-Columbian_(to_1500)
 World history article https://www.worldhistory.org/Diego_Velazquez_de_Cuellar/
 
 - Steps on how to align the images in the gallery was taken from forum stackoverflow https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css
 
 - Icons used in footer, timeline, nav bar and sign up were taken from font awsome https://fontawesome.com/
+
+## Media
+
+- Images for header and gallery section were taken from Google images using the tool to search after images with creatice commons license. 
