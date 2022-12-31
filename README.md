@@ -57,6 +57,9 @@ All resolution testing has been done using chrome developer tools
     - The bar links  has been tested and works in all pages on both Microsoft Edge and Chrome. 
     - On Ipad screens the nav bar will move down below the h1 and on phones they will stack vertically. 
 
+![Screenshot of nav on ipad](/assets/images/nav%20ipad.png "nav on ipad")
+![Screenshot of nav on phone](/assets/images/nav%20phone%20screen.png "nav on phone")
+
 - Timeline 
     - The timeline has been tested and works on both Chrome and Microsoft Edge. 
     - After 1350px width the padding on both sides is reduced to make more text fit on each line, making it more visually pleasing. 
@@ -67,7 +70,9 @@ All resolution testing has been done using chrome developer tools
 
 - Gallery 
     - The gallery has been tested and works on both Chrome and Microsoft Edge. 
-    - On ipad and iphone screens it reduces in columns it doesn't zoom in to much making it easier to see the photos.
+    - On ipad and iphone screens it reduces to 1 column making it easier to see the photos.
+
+![Screenshot of gallery on ipgone and ipad](/assets/images/gallery%20ipad%20iphone.png "gallery on ipad and iphone")
 
 - Sign up 
     - The sign up page has been tested adn works on both Chrome and Microsoft Edge. 
